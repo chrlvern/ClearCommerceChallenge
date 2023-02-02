@@ -17,7 +17,10 @@ $ yarn watch # npm run watch
 
 ## Design Objectives
 
-1.) Fix the Color & Contrast issues of page.
-2.) Fix the Type and Visual Hierarchy of the page elements.
-3.) Fix the white space issues.
-4.) Add Media Queries to add responsiveness for large phones, tablets & desktops.
+- Fix the Color & Contrast issues of page.
+
+- Fix the Type and Visual Hierarchy of the page elements.
+
+- Fix the white space issues.
+
+- Add Media Queries to add responsiveness for large phones, tablets & desktops.
