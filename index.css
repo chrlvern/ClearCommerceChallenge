@@ -142,9 +142,161 @@ main {
 /* Your Fixes Below */
 
 body {
-    background: #303A52;
+    background: #303a52;
+    font-family: 'Nunito', sans-serif;
 }
 
-nav {
+/*Header*/
+
+header{
+    padding: 25px 50px;
+    font-size: 1.5em;
+}
+
+
+h1{
+    font-size: 4em;
+    margin: 80px 50px;
+}
+
+li h3{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+a.cta-btn{
+    color: white;
+}
+
+main{
+    border: none;
+}
+
+main ul{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 15px;
+}
+
+.panel{
+    background-color: #303A52;
+    margin-bottom: 200px;
+}
+
+.data li{
+    background-color: #39445F;
+    padding: 75px 50px;
+    border-radius: 15px;
+}
+
+.panel li{
+    padding: 100px 75px;
+}
+
+.panel li:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.panel li:hover p{
+    color: #FC85AE;
+}
+
+.columns.half{
+    background-color: white;
+    border-radius: 20px;
+    padding: 125px 200px;
+}
+
+.secondary{
+    padding: 75px;
+    border-radius: 15px;
+    background-color: #39445F;
+}
+
+.secondary li{
+    background-color: #2C354A;
+}
+
+.secondary li:hover{
+    background-color: #FC85AE;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.secondary li:hover h3{
+    color: white;
+}
+    
+.col.left h3{
+    color: #303A52;
+    font-size: 3em;
+}
+
+.col.left p{
+    color: #39445F;
+    font-size: 1.2em;
+}
+
+ul.data li:last-child p{
+    margin-bottom: 1em;
+}
+
+/*Navbar*/
+
+nav{
     background: #2C354A;
+    width: 25%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+nav svg{
+    font-size: 3em;
+}
+
+nav li{
+    padding: 15px 25px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+.selected{
+    background-color: #FC85AE;
+    border-radius: 5px;
+}
+
+.inner-wrapper{
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+@media (max-width: 1400px){
+    header{
+        padding: 17px 3%;
+        transition: .2s;
+    }
+    section{
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    main ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1040px){
+    nav{
+        width: 50%;
+    }
 }
